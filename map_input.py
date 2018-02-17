@@ -25,7 +25,7 @@ if map_hold == 1 :
 
     if display_map == "yes":
         #open map file
-        map_file = open("mapfile.txt", "r")
+        map_file = open("level_one.txt", "r")
         display = map_file.read(100000)
         print(display)
 
@@ -41,7 +41,7 @@ if map_hold == 1 :
 #if user types map, display map
 while choice == "map" :
     #open map file
-    map_file = open("mapfile.txt", "r")
+    map_file = open("level_one.txt", "r")
     display = map_file.read(100000)
     print(display)
 
