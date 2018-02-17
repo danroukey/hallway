@@ -1,6 +1,6 @@
 map_hold = 0
 
-answer = input("Do you want to pick up the map? (yes/no): ").strip().lower()
+answer = input("You have found a map! Do you want to pick up the map? (yes/no): ").strip().lower()
 
 if answer not in ["yes", "no"]:
     print("Please choose a valid answer.")
